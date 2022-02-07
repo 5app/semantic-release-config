@@ -1,0 +1,40 @@
+version: 2.1
+
+orbs:
+    node: circleci/node@4.1
+
+executors:
+    default:
+        docker:
+            - image: cimg/node:lts
+
+jobs:
+    test:
+        executor: default
+        steps:
+            - checkout
+            - node/install-packages
+            - run: npm run lint
+            - run: npm test
+
+    release:
+        executor: default
+        steps:
+            - checkout
+            - node/install-packages
+            # if you have issues, try uncommenting, if not, please remove these comments.
+            #            - checkout
+            - run: npm run semantic-release
+
+workflows:
+    build:
+        jobs:
+            - test
+            - release:
+                  context: org-global
+                  requires:
+                      - test
+                  filters:
+                      branches:
+                          only:
+                              - main
