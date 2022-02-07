@@ -24,7 +24,7 @@ jobs:
             - node/install-packages
             # if you have issues, try uncommenting, if not, please remove these comments.
             #            - checkout
-            - run: npm run semantic-release
+            - run: npx semantic-release
 
 workflows:
     build:
