@@ -3,6 +3,9 @@
 	"version": "1.0.2",
 	"description": "Semantic Release shareable config",
 	"main": "index.js",
+	"files": [
+		"index.js"
+	],
 	"scripts": {
 		"lint": "eslint ./",
 		"lint-fix": "npm run lint -- --fix",
