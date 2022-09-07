@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/5app/semantic-release-config/compare/v1.0.1...v1.0.2) (2022-09-07)
+
+
+### Bug Fixes
+
+* **package:** add to github registry ([bcdf881](https://github.com/5app/semantic-release-config/commit/bcdf881e0bddd65d24aba9942eb86842f0d7e9df))
+
 ## [1.0.1](https://github.com/5app/semantic-release-config/compare/v1.0.0...v1.0.1) (2022-07-13)
 
 
