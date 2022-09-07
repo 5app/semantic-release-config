@@ -1,6 +1,6 @@
 {
 	"name": "@5app/semantic-release-config",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Semantic Release shareable config",
 	"main": "index.js",
 	"files": [

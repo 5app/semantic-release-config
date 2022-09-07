@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/5app/semantic-release-config/compare/v1.0.2...v1.0.3) (2022-09-07)
+
+
+### Bug Fixes
+
+* **package:** remove redundant scripts ([6f72bd9](https://github.com/5app/semantic-release-config/commit/6f72bd9e3589e2b9a8d933ebbe1b293ff4a2cdc3))
+
 ## [1.0.2](https://github.com/5app/semantic-release-config/compare/v1.0.1...v1.0.2) (2022-09-07)
 
 
