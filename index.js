@@ -2,7 +2,7 @@
  * Export Default Semantic Release shareable config
  */
 module.exports = {
-	branches: ['main', 'master'],
+	branches: ['main', 'master', {name: 'next', channel: 'next'}],
 	plugins: [
 		'@semantic-release/commit-analyzer',
 		'@semantic-release/release-notes-generator',
