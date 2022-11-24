@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/5app/semantic-release-config/compare/v1.0.3...v1.1.0) (2022-11-24)
+
+
+### Features
+
+* **next:** support next branch and channel ([83769b8](https://github.com/5app/semantic-release-config/commit/83769b8eb26d86e746a8fcaada23329bb6c36898))
+
 ## [1.0.3](https://github.com/5app/semantic-release-config/compare/v1.0.2...v1.0.3) (2022-09-07)
 
 
