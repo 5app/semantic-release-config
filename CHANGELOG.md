@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/5app/semantic-release-config/compare/v1.1.0...v2.0.0) (2025-06-12)
+
+
+### Features
+
+* trigger on branch 'main' and now 'production' ([5a39ac7](https://github.com/5app/semantic-release-config/commit/5a39ac7fe0d703edb4c65d47c386614cca282657))
+
+
+### BREAKING CHANGES
+
+* removes 'master'
+
 # [1.1.0](https://github.com/5app/semantic-release-config/compare/v1.0.3...v1.1.0) (2022-11-24)
 
 
